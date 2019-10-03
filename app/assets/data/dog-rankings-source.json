@@ -1,0 +1,799 @@
+[
+    {
+        "rank": "1",
+        "name": "labrador-retriever",
+        "source": [
+            "Stanford",
+            "Google"
+        ],
+        "link": "https://www.akc.org/dog-breeds/labrador-retriever"
+    },
+    {
+        "rank": "2",
+        "name": "german-shepherd",
+        "source": [
+            "Stanford",
+            "Google"
+        ],
+        "link": "https://www.akc.org/dog-breeds/german-shepherd"
+    },
+    {
+        "rank": "3",
+        "name": "golden-retriever",
+        "source": [
+            "Stanford",
+            "Google"
+        ],
+        "link": "https://www.akc.org/dog-breeds/golden-retriever"
+    },
+    {
+        "rank": "4",
+        "name": "french-bulldog",
+        "source": [
+            "Stanford",
+            "Google"
+        ],
+        "link": "https://www.akc.org/dog-breeds/french-bulldog"
+    },
+    {
+        "rank": "5",
+        "name": "american-bulldog",
+        "source": [
+            "Oxford"
+        ],
+        "link": "https://www.akc.org/dog-breeds/bulldog/"
+    },
+    {
+        "rank": "6",
+        "name": "beagle",
+        "source": [
+            "Oxford",
+            "Stanford"
+        ],
+        "link": "https://www.akc.org/dog-breeds/beagle"
+    },
+    {
+        "rank": "7",
+        "name": "standard-poodle",
+        "source": [
+            "Stanford",
+            "Google"
+        ],
+        "link": "https://www.akc.org/dog-breeds/poodle-standard/"
+    },
+    {
+        "rank": "8",
+        "name": "rottweiler",
+        "source": [
+            "Stanford",
+            "Google"
+        ],
+        "link": "https://www.akc.org/dog-breeds/rottweiler"
+    },
+    {
+        "rank": "9",
+        "name": "german-short-haired-pointer",
+        "source": [
+            "Oxford",
+            "Stanford"
+        ],
+        "link": "https://www.akc.org/dog-breeds/german-shorthaired-pointer/"
+    },
+    {
+        "rank": "10",
+        "name": "yorkshire-terrier",
+        "source": [
+            "Oxford",
+            "Stanford"
+        ],
+        "link": "https://www.akc.org/dog-breeds/yorkshire-terrier"
+    },
+    {
+        "rank": "11",
+        "name": "boxer",
+        "source": [
+            "Oxford",
+            "Stanford"
+        ],
+        "link": "https://www.akc.org/dog-breeds/boxer"
+    },
+    {
+        "rank": "12",
+        "name": "dachshund",
+        "source": [],
+        "link": "https://www.akc.org/dog-breeds/dachshund"
+    },
+    {
+        "rank": "13",
+        "name": "pembroke-welsh-corgi",
+        "source": [
+            "Stanford",
+            "Google"
+        ],
+        "link": "https://www.akc.org/dog-breeds/pembroke-welsh-corgi/"
+    },
+    {
+        "rank": "14",
+        "name": "siberian-husky",
+        "source": [
+            "Stanford",
+            "Google"
+        ],
+        "link": "https://www.akc.org/dog-breeds/siberian-husky"
+    },
+    {
+        "rank": "15",
+        "name": "australian-shepherd",
+        "source": [],
+        "link": "https://www.akc.org/dog-breeds/australian-shepherd"
+    },
+    {
+        "rank": "16",
+        "name": "great-dane",
+        "source": [
+            "Stanford",
+            "Google"
+        ],
+        "link": "https://www.akc.org/dog-breeds/great-dane"
+    },
+    {
+        "rank": "17",
+        "name": "doberman-pinscher",
+        "source": [
+            "Stanford",
+            "Google"
+        ],
+        "link": "https://www.akc.org/dog-breeds/doberman-pinscher/"
+    },
+    {
+        "rank": "18",
+        "name": "cavalier-king-charles-spaniel",
+        "source": [],
+        "link": "https://www.akc.org/dog-breeds/cavalier-king-charles-spaniel"
+    },
+    {
+        "rank": "19",
+        "name": "miniature-schnauzer",
+        "source": [
+            "Stanford"
+        ],
+        "link": "https://www.akc.org/dog-breeds/miniature-schnauzer"
+    },
+    {
+        "rank": "20",
+        "name": "shih-tzu",
+        "source": [
+            "Stanford",
+            "Google"
+        ],
+        "link": "https://www.akc.org/dog-breeds/shih-tzu"
+    },
+    {
+        "rank": "21",
+        "name": "boston-bull",
+        "source": [
+            "Stanford",
+            "Google"
+        ],
+        "link": "https://www.akc.org/dog-breeds/boston-terrier/"
+    },
+    {
+        "rank": "22",
+        "name": "bernese-mountain-dog",
+        "source": [
+            "Stanford",
+            "Google"
+        ],
+        "link": "https://www.akc.org/dog-breeds/bernese-mountain-dog"
+    },
+    {
+        "rank": "23",
+        "name": "pomeranian",
+        "source": [
+            "Oxford",
+            "Stanford"
+        ],
+        "link": "https://www.akc.org/dog-breeds/pomeranian"
+    },
+    {
+        "rank": "24",
+        "name": "havanese",
+        "source": [
+            "Oxford"
+        ],
+        "link": "https://www.akc.org/dog-breeds/havanese"
+    },
+    {
+        "rank": "25",
+        "name": "shetland-sheepdog",
+        "source": [
+            "Stanford",
+            "Google"
+        ],
+        "link": "https://www.akc.org/dog-breeds/shetland-sheepdog"
+    },
+    {
+        "rank": "26",
+        "name": "brittany-spaniel",
+        "source": [
+            "Stanford",
+            "Google"
+        ],
+        "link": "https://www.akc.org/dog-breeds/brittany/"
+    },
+    {
+        "rank": "27",
+        "name": "english-springer",
+        "source": [
+            "Stanford",
+            "Google"
+        ],
+        "link": "https://www.akc.org/dog-breeds/english-springer-spaniel/"
+    },
+    {
+        "rank": "28",
+        "name": "pug",
+        "source": [
+            "Oxford",
+            "Stanford"
+        ],
+        "link": "https://www.akc.org/dog-breeds/pug"
+    },
+    {
+        "rank": "29",
+        "name": "mastiff",
+        "source": [],
+        "link": "https://www.akc.org/dog-breeds/mastiff"
+    },
+    {
+        "rank": "30",
+        "name": "english-cocker-spaniel",
+        "source": [
+            "Oxford"
+        ],
+        "link": "https://www.akc.org/dog-breeds/english-cocker-spaniel"
+    },
+    {
+        "rank": "31",
+        "name": "vizsla",
+        "source": [
+            "Stanford"
+        ],
+        "link": "https://www.akc.org/dog-breeds/vizsla"
+    },
+    {
+        "rank": "32",
+        "name": "cane-corso",
+        "source": [],
+        "link": "https://www.akc.org/dog-breeds/cane-corso"
+    },
+    {
+        "rank": "33",
+        "name": "chihuahua",
+        "source": [
+            "Oxford",
+            "Stanford"
+        ],
+        "link": "https://www.akc.org/dog-breeds/chihuahua"
+    },
+    {
+        "rank": "34",
+        "name": "miniature-american-shepherd",
+        "source": [],
+        "link": "https://www.akc.org/dog-breeds/miniature-american-shepherd"
+    },
+    {
+        "rank": "35",
+        "name": "border-collie",
+        "source": [
+            "Stanford",
+            "Google"
+        ],
+        "link": "https://www.akc.org/dog-breeds/border-collie"
+    },
+    {
+        "rank": "36",
+        "name": "weimaraner",
+        "source": [
+            "Stanford"
+        ],
+        "link": "https://www.akc.org/dog-breeds/weimaraner"
+    },
+    {
+        "rank": "37",
+        "name": "maltese-dog",
+        "source": [
+            "Stanford"
+        ],
+        "link": "https://www.akc.org/dog-breeds/maltese/"
+    },
+    {
+        "rank": "38",
+        "name": "collie",
+        "source": [
+            "Stanford"
+        ],
+        "link": "https://www.akc.org/dog-breeds/collie"
+    },
+    {
+        "rank": "39",
+        "name": "basset-hound",
+        "source": [
+            "Oxford",
+            "Stanford"
+        ],
+        "link": "https://www.akc.org/dog-breeds/basset-hound"
+    },
+    {
+        "rank": "40",
+        "name": "newfoundland",
+        "source": [
+            "Oxford",
+            "Stanford"
+        ],
+        "link": "https://www.akc.org/dog-breeds/newfoundland"
+    },
+    {
+        "rank": "41",
+        "name": "rhodesian-ridgeback",
+        "source": [
+            "Stanford",
+            "Google"
+        ],
+        "link": "https://www.akc.org/dog-breeds/rhodesian-ridgeback"
+    },
+    {
+        "rank": "42",
+        "name": "west-highland-white-terrier",
+        "source": [
+            "Stanford"
+        ],
+        "link": "https://www.akc.org/dog-breeds/west-highland-white-terrier"
+    },
+    {
+        "rank": "43",
+        "name": "malinois",
+        "source": [
+            "Stanford"
+        ],
+        "link": "https://www.akc.org/dog-breeds/belgian-malinois/"
+    },
+    {
+        "rank": "44",
+        "name": "shiba-inu",
+        "source": [
+            "Oxford"
+        ],
+        "link": "https://www.akc.org/dog-breeds/shiba-inu"
+    },
+    {
+        "rank": "45",
+        "name": "chesapeake-bay-retriever",
+        "source": [
+            "Stanford"
+        ],
+        "link": "https://www.akc.org/dog-breeds/chesapeake-bay-retriever"
+    },
+    {
+        "rank": "46",
+        "name": "bichons-frise",
+        "source": [],
+        "link": "https://www.akc.org/dog-breeds/bichons-frise"
+    },
+    {
+        "rank": "47",
+        "name": "akita",
+        "source": [],
+        "link": "https://www.akc.org/dog-breeds/akita"
+    },
+    {
+        "rank": "48",
+        "name": "saint-bernard",
+        "source": [
+            "Oxford",
+            "Stanford"
+        ],
+        "link": "https://www.akc.org/dog-breeds/st-bernard/"
+    },
+    {
+        "rank": "49",
+        "name": "bloodhound",
+        "source": [
+            "Stanford"
+        ],
+        "link": "https://www.akc.org/dog-breeds/bloodhound"
+    },
+    {
+        "rank": "50",
+        "name": "portuguese-water-dog",
+        "source": [],
+        "link": "https://www.akc.org/dog-breeds/portuguese-water-dog"
+    },
+    {
+        "rank": "51",
+        "name": "bull-mastiff",
+        "source": [
+            "Stanford"
+        ],
+        "link": "https://www.akc.org/dog-breeds/bullmastiff/"
+    },
+    {
+        "rank": "52",
+        "name": "cocker-spaniel",
+        "source": [
+            "Stanford"
+        ],
+        "link": "https://www.akc.org/dog-breeds/cocker-spaniel"
+    },
+    {
+        "rank": "53",
+        "name": "wheaten-terrier",
+        "source": [
+            "Oxford",
+            "Stanford"
+        ],
+        "link": "https://www.akc.org/dog-breeds/soft-coated-wheaten-terrier/"
+    },
+    {
+        "rank": "54",
+        "name": "papillon",
+        "source": [
+            "Stanford"
+        ],
+        "link": "https://www.akc.org/dog-breeds/papillon"
+    },
+    {
+        "rank": "55",
+        "name": "australian-cattle-dog",
+        "source": [],
+        "link": "https://www.akc.org/dog-breeds/australian-cattle-dog"
+    },
+    {
+        "rank": "56",
+        "name": "dalmatian",
+        "source": [],
+        "link": "https://www.akc.org/dog-breeds/dalmatian"
+    },
+    {
+        "rank": "57",
+        "name": "scottish-terrier",
+        "source": [
+            "Oxford",
+            "Stanford"
+        ],
+        "link": "https://www.akc.org/dog-breeds/scottish-terrier"
+    },
+    {
+        "rank": "58",
+        "name": "malamute",
+        "source": [
+            "Stanford"
+        ],
+        "link": "https://www.akc.org/dog-breeds/alaskan-malamute/"
+    },
+    {
+        "rank": "59",
+        "name": "samoyed",
+        "source": [
+            "Oxford",
+            "Stanford"
+        ],
+        "link": "https://www.akc.org/dog-breeds/samoyed"
+    },
+    {
+        "rank": "60",
+        "name": "airedale",
+        "source": [
+            "Stanford"
+        ],
+        "link": "https://www.akc.org/dog-breeds/airedale-terrier/"
+    },
+    {
+        "rank": "61",
+        "name": "whippet",
+        "source": [
+            "Stanford"
+        ],
+        "link": "https://www.akc.org/dog-breeds/whippet"
+    },
+    {
+        "rank": "62",
+        "name": "american-pit-bull-terrier",
+        "source": [
+            "Oxford"
+        ],
+        "link": "https://www.akc.org/dog-breeds/bull-terrier/"
+    },
+    {
+        "rank": "63",
+        "name": "German-wirehaired-pointer",
+        "source": [],
+        "link": "https://www.akc.org/dog-breeds/German-wirehaired-pointer"
+    },
+    {
+        "rank": "64",
+        "name": "chinese-shar-pei",
+        "source": [],
+        "link": "https://www.akc.org/dog-breeds/chinese-shar-pei"
+    },
+    {
+        "rank": "65",
+        "name": "wirehaired-pointing-griffon",
+        "source": [],
+        "link": "https://www.akc.org/dog-breeds/wirehaired-pointing-griffon"
+    },
+    {
+        "rank": "66",
+        "name": "great-pyrenees",
+        "source": [
+            "Oxford",
+            "Stanford"
+        ],
+        "link": "https://www.akc.org/dog-breeds/great-pyrenees"
+    },
+    {
+        "rank": "67",
+        "name": "dogues-de-bordeaux",
+        "source": [],
+        "link": "https://www.akc.org/dog-breeds/dogue-de-bordeaux/"
+    },
+    {
+        "rank": "68",
+        "name": "cardigan",
+        "source": [
+            "Stanford"
+        ],
+        "link": "https://www.akc.org/dog-breeds/cardigan-welsh-corgi/"
+    },
+    {
+        "rank": "69",
+        "name": "cairn",
+        "source": [
+            "Stanford"
+        ],
+        "link": "https://www.akc.org/dog-breeds/cairn-terrier/"
+    },
+    {
+        "rank": "70",
+        "name": "miniature-pinscher",
+        "source": [
+            "Oxford",
+            "Stanford"
+        ],
+        "link": "https://www.akc.org/dog-breeds/miniature-pinscher"
+    },
+    {
+        "rank": "71",
+        "name": "lhasa",
+        "source": [
+            "Stanford"
+        ],
+        "link": "https://www.akc.org/dog-breeds/lhasa"
+    },
+    {
+        "rank": "72",
+        "name": "old-english-sheepdog",
+        "source": [
+            "Stanford"
+        ],
+        "link": "https://www.akc.org/dog-breeds/old-english-sheepdog"
+    },
+    {
+        "rank": "73",
+        "name": "italian-greyhound",
+        "source": [
+            "Stanford",
+            "Google"
+        ],
+        "link": "https://www.akc.org/dog-breeds/italian-greyhound"
+    },
+    {
+        "rank": "74",
+        "name": "greater-swiss-mountain-dog",
+        "source": [
+            "Stanford"
+        ],
+        "link": "https://www.akc.org/dog-breeds/greater-swiss-mountain-dog"
+    },
+    {
+        "rank": "75",
+        "name": "chow-chow",
+        "source": [
+            "Stanford"
+        ],
+        "link": "https://www.akc.org/dog-breeds/chow-chow/"
+    },
+    {
+        "rank": "76",
+        "name": "irish-wolfhound",
+        "source": [
+            "Stanford"
+        ],
+        "link": "https://www.akc.org/dog-breeds/irish-wolfhound"
+    },
+    {
+        "rank": "77",
+        "name": "irish-setter",
+        "source": [
+            "Stanford"
+        ],
+        "link": "https://www.akc.org/dog-breeds/irish-setter"
+    },
+    {
+        "rank": "78",
+        "name": "giant-schnauzer",
+        "source": [
+            "Stanford"
+        ],
+        "link": "https://www.akc.org/dog-breeds/giant-schnauzer"
+    },
+    {
+        "rank": "79",
+        "name": "chinese-crested",
+        "source": [],
+        "link": "https://www.akc.org/dog-breeds/chinese-crested"
+    },
+    {
+        "rank": "80",
+        "name": "staffordshire-bull-terrier",
+        "source": [
+            "Oxford",
+            "Stanford"
+        ],
+        "link": "https://www.akc.org/dog-breeds/staffordshire-bull-terrier"
+    },
+    {
+        "rank": "81",
+        "name": "coton-de-tulear",
+        "source": [],
+        "link": "https://www.akc.org/dog-breeds/coton-de-tulear"
+    },
+    {
+        "rank": "82",
+        "name": "russell-terrier",
+        "source": [],
+        "link": "https://www.akc.org/dog-breeds/russell-terrier"
+    },
+    {
+        "rank": "83",
+        "name": "nova-scotia-duck-tolling-retriever",
+        "source": [],
+        "link": "https://www.akc.org/dog-breeds/nova-scotia-duck-tolling-retriever"
+    },
+    {
+        "rank": "84",
+        "name": "bouvier-des-flandres",
+        "source": [
+            "Stanford"
+        ],
+        "link": "https://www.akc.org/dog-breeds/bouvier-des-flandres"
+    },
+    {
+        "rank": "85",
+        "name": "american-staffordshire-terrier",
+        "source": [
+            "Stanford"
+        ],
+        "link": "https://www.akc.org/dog-breeds/american-staffordshire-terrier"
+    },
+    {
+        "rank": "86",
+        "name": "rat-terrier",
+        "source": [],
+        "link": "https://www.akc.org/dog-breeds/rat-terrier"
+    },
+    {
+        "rank": "87",
+        "name": "basenji",
+        "source": [
+            "Stanford"
+        ],
+        "link": "https://www.akc.org/dog-breeds/basenji"
+    },
+    {
+        "rank": "88",
+        "name": "border-terrier",
+        "source": [
+            "Stanford"
+        ],
+        "link": "https://www.akc.org/dog-breeds/border-terrier"
+    },
+    {
+        "rank": "89",
+        "name": "standard-schnauzer",
+        "source": [
+            "Stanford",
+            "Google"
+        ],
+        "link": "https://www.akc.org/dog-breeds/standard-schnauzer"
+    },
+    {
+        "rank": "90",
+        "name": "anatolian-shepherd-dog",
+        "source": [],
+        "link": "https://www.akc.org/dog-breeds/anatolian-shepherd-dog"
+    },
+    {
+        "rank": "91",
+        "name": "flat-coated-retriever",
+        "source": [
+            "Stanford"
+        ],
+        "link": "https://www.akc.org/dog-breeds/flat-coated-retriever"
+    },
+    {
+        "rank": "92",
+        "name": "pekinese",
+        "source": [
+            "Stanford"
+        ],
+        "link": "https://www.akc.org/dog-breeds/pekingese/"
+    },
+    {
+        "rank": "93",
+        "name": "leonberger",
+        "source": [
+            "Oxford",
+            "Stanford"
+        ],
+        "link": "https://www.akc.org/dog-breeds/leonberger"
+    },
+    {
+        "rank": "94",
+        "name": "english-setter",
+        "source": [
+            "Oxford",
+            "Stanford"
+        ],
+        "link": "https://www.akc.org/dog-breeds/english-setter"
+    },
+    {
+        "rank": "95",
+        "name": "keeshond",
+        "source": [
+            "Oxford",
+            "Stanford"
+        ],
+        "link": "https://www.akc.org/dog-breeds/keeshond"
+    },
+    {
+        "rank": "96",
+        "name": "tibetan-terrier",
+        "source": [
+            "Stanford"
+        ],
+        "link": "https://www.akc.org/dog-breeds/tibetan-terrier"
+    },
+    {
+        "rank": "97",
+        "name": "norwegian-elkhound",
+        "source": [
+            "Stanford"
+        ],
+        "link": "https://www.akc.org/dog-breeds/norwegian-elkhound"
+    },
+    {
+        "rank": "98",
+        "name": "brussels-griffon",
+        "source": [],
+        "link": "https://www.akc.org/dog-breeds/brussels-griffon"
+    },
+    {
+        "rank": "99",
+        "name": "lagotti-romagnoli",
+        "source": [],
+        "link": "https://www.akc.org/dog-breeds/lagotto-romagnolo/"
+    },
+    {
+        "rank": "100",
+        "name": "boykin-spaniel",
+        "source": [],
+        "link": "https://www.akc.org/dog-breeds/boykin-spaniel"
+    },
+    {
+        "rank": "n/a",
+        "name": "black-mouth-cur",
+        "source": [],
+        "link": "https://dogtime.com/dog-breeds/black-mouth-cur"
+    }
+]

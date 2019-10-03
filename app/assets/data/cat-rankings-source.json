@@ -1,0 +1,158 @@
+[
+    {
+        "name": "ragdoll",
+        "rank": 1,
+        "link" : "http://cfa.org/Breeds/BreedsKthruR/Ragdoll.aspx",
+        "imageSources" : ["oxford"]
+    },
+    {
+        "name": "exotic-shorthair",
+        "rank": 2,
+        "link" : "http://cfa.org/Breeds/BreedsCJ/Exotic.aspx",
+        "imageSources" : []
+    },
+    {
+        "name": "british-shorthair",
+        "rank": 3,
+        "link" : "http://cfa.org/Breeds/BreedsAB/BritishShorthair.aspx",
+        "imageSources" : ["oxford"]
+    },
+    {
+        "name": "persian",
+        "rank": 4,
+        "link" : "http://cfa.org/Breeds/BreedsKthruR/Persian.aspx",
+        "imageSources" : ["oxford"]
+    },
+    {
+        "name": "maine-coon",
+        "rank": 5,
+        "link" : "http://cfa.org/Breeds/BreedsKthruR/MaineCoon.aspx",
+        "imageSources" : ["oxford"]
+    },
+    {
+        "name": "american-shorthair",
+        "rank": 6,
+        "link" : "http://cfa.org/Breeds/BreedsAB/AmericanShorthair.aspx",
+        "imageSources" : []
+    },
+    {
+        "name": "devon-rex",
+        "rank": 7,
+        "link" : "http://cfa.org/Breeds/BreedsCJ/DevonRex.aspx",
+        "imageSources" : []
+    },
+    {
+        "name": "sphynx",
+        "rank": 8,
+        "link" : "http://cfa.org/Breeds/BreedsSthruT/Sphynx.aspx",
+        "imageSources" : ["oxford"]
+    },
+    {
+        "name": "scottish-fold",
+        "rank": 9,
+        "link" : "http://cfa.org/Breeds/BreedsSthruT/ScottishFold.aspx",
+        "imageSources" : []
+    },
+    {
+        "name": "abyssinian",
+        "rank": 10,
+        "link" : "http://cfa.org/Breeds/BreedsAB/Abyssinian.aspx",
+        "imageSources" : ["oxford"]
+    },
+    {
+        "name": "oriental",
+        "rank": 11,
+        "link" : "http://cfa.org/Breeds/BreedsKthruR/Oriental.aspx",
+        "imageSources" : []
+    },
+    {
+        "name": "siamese",
+        "rank": 13,
+        "link" : "http://cfa.org/Breeds/BreedsSthruT/Siamese.aspx",
+        "imageSources" : ["oxford"]
+    },
+    {
+        "name": "norwegian-forest-cat",
+        "rank": 14,
+        "link" : "http://cfa.org/Breeds/BreedsKthruR/NorwegianForestCat.aspx",
+        "imageSources" : []
+    },
+    {
+        "name": "cornish-rex",
+        "rank": 15,
+        "link" : "http://cfa.org/Breeds/BreedsCJ/CornishRex.aspx",
+        "imageSources" : []
+    },
+    {
+        "name": "bengal",
+        "rank": 16,
+        "link" : "http://cfa.org/Breeds/BreedsAB/Bengal.aspx",
+        "imageSources" : ["oxford"]
+    },
+    {
+        "name": "russian-blue",
+        "rank": 17,
+        "link" : "http://cfa.org/Breeds/BreedsKthruR/RussianBlue.aspx",
+        "imageSources" : ["oxford"]
+    },
+    {
+        "name": "siberian",
+        "rank": 18,
+        "link" : "http://cfa.org/Breeds/BreedsSthruT/Siberian.aspx",
+        "imageSources" : []
+    },
+    {
+        "name": "burmese",
+        "rank": 19,
+        "link" : "http://cfa.org/Breeds/BreedsAB/Burmese.aspx",
+        "imageSources" : []
+    },
+    {
+        "name": "birman",
+        "rank": 20,
+        "link" : "http://cfa.org/Breeds/BreedsAB/Birman.aspx",
+        "imageSources" : ["oxford"]
+    },
+    {
+        "name": "tonkinese",
+        "rank": 21,
+        "link" : "http://cfa.org/Breeds/BreedsSthruT/Tonkinese.aspx",
+        "imageSources" : []
+    },
+    {
+        "name": "ocicat",
+        "rank": 22,
+        "link" : "http://cfa.org/Breeds/BreedsKthruR/Ocicat.aspx",
+        "imageSources" : []
+    },
+    {
+        "name": "selkirk-rex",
+        "rank": 23,
+        "link" : "http://cfa.org/Breeds/BreedsSthruT/SelkirkRex.aspx",
+        "imageSources" : []
+    },
+    {
+        "name": "ragamuffin",
+        "rank": 24,
+        "link" : "http://cfa.org/Breeds/BreedsKthruR/Ragamuffin.aspx",
+        "imageSources" : []
+    },
+    {
+        "name": "american-curl",
+        "rank": 25,
+        "link" : "http://cfa.org/Breeds/BreedsAB/AmericanCurl.aspx",
+        "imageSources" : []
+    },
+    {
+        "name": "egyptian-mau",
+        "rank": 26,
+        "link" : "http://cfa.org/Breeds/BreedsCJ/EgyptianMau.aspx",
+        "imageSources" : ["oxford"]
+    },
+    {
+        "name": "bombay",
+        "rank": 27,
+        "link" : "http://cfa.org/Breeds/BreedsAB/Bombay.aspx",
+        "imageSources" : ["oxford"]
+    }
+]

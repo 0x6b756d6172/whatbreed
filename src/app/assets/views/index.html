@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>WhatBreed</title>
+
+    <link rel="stylesheet/less" type="text/css" href="assets/css/styles.less" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/less.js/3.9.0/less.min.js" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <script src="https://cdn.jsdelivr.net/npm/exif-js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+    <link rel="manifest" href="/assets/manifest.json">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#ff4d4d">
+</head>
+
+<script>
+    if ('serviceWorker' in navigator) 
+    {
+        window.addEventListener('load', () => 
+        {
+            navigator.serviceWorker.register('/sw.js')
+        })
+    }
+</script>
+
+<body id="body">
+    <div id="app">
+
+        <input style="display:none;" id="file-input" type="file" name="file" accept="image/*" @change="imagesSelected()" multiple>
+        <input id="button" type="button" v-on:click="buttonClick" :value="buttonValue" v-show="buttonVisible" :enabled="buttonEnabled" />
+
+        <section id="uploader">
+            <header>
+                <h1>WhatBreed</h1>
+                <p>Use AI to determine the breed of your pet</p>
+            </header>
+
+            <div id="images">
+                <canvas width="256" height="256" v-for="image in images" :id="image.name"></canvas>
+                <div id="addImages" v-on:click="showPicker"> + </div>
+            </div>
+
+            <p>
+                Select a few pictures to get started or scroll down to learn more below.
+            </p>
+        </section>
+
+        <section id="results" v-show="results.length > 0">
+            <div class="result" v-for="result in results" v-on:click="window.open(result[2], '_blank');" v-if="result[1] > 5">
+                <div class="resultValue" v-bind:style="{ background: gradient(result[1]) }">
+                    <p>{{result[1]}}% - {{result[0]}}</p>
+                    <img src="assets/images/icons/external-link-alt.svg"/>
+                </div>
+            </div>
+        </section>
+
+        <section id="faq">
+
+            <div>
+                <h2>What type of pictures should I use?</h2>
+                <p>Try getting at least 3 pictures of your pet - one standing, one sitting and one lying down. The
+                    more pictures and angles you provide, the better we can do on determining the breed. Avoid having
+                    other pets or people in the pictures for best results and try to center your pet in the picture. A
+                    maximum of nine pictures can be submitted.</p>
+            </div>
+
+            <div>
+                <h2>What happens to my pictures?</h2>
+                <p>Your pet pictures are securely sent to our servers using HTTPS to be evaluated and then are
+                    immediately discarded. They are never saved to any persitent storage or shared with any external
+                    entities. </p>
+            </div>
+            <div>
+                <h2>My pet is being classified as the wrong species!</h2>
+                <p>Because this app is built to identify both cats and dogs, sometimes it gets confused and identifies
+                    cats as dogs and vice versa. Try adding more pictures, from different angles to get a better answer.
+                </p>
+            </div>
+            <div>
+                <h2>What breeds can you differentiate between?</h2>
+                <p>We can currently differentiate between {{dogBreeds.length}} dog breeds and {{catBreeds.length}} cat
+                    breeds with 93.46% accuracy. This includes the <a target="_blank" href="https://www.akc.org/expert-advice/news/most-popular-dog-breeds-of-2018/">100 most popular dog breeds identified by the American
+                    Kenel Club</a> and the <a target="_blank" href="http://cfa.org/AboutCFA/News/PressReleases/PressReleaseTopBreedsfor2018.aspx">25 most popular cat breeds identified by the Cat Fanciers Association</a>.</p>
+                <div id="breeds">
+                    <h3>Cat Breeds</h3>
+                    <div class="tables">
+                        <table v-for="(x,i) in Array(Math.ceil(catBreeds.length/10))">
+                            <tr>
+                                <td>CFA Rank</td>
+                                <td>Breed</td>
+                            </tr>
+                            <tr v-for="cat in catBreeds.slice(i * 10, (i * 10) + 10)">
+                                <td>{{ cat.rank }}</td>
+                                <td>{{ ToTitleCase(cat.name) }}</td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <h3>Dog Breeds</h3>
+                    <div class="tables">
+                        <table v-for="(x,i) in Array(Math.ceil(dogBreeds.length/10))">
+                            <tr>
+                                <td>AKC Rank</td>
+                                <td>Breed</td>
+                            </tr>
+                            <tr v-for="dog in dogBreeds.slice(i * 10, (i * 10) + 10)">
+                                <td>{{ dog.rank }}</td>
+                                <td>{{ ToTitleCase(dog.name) }}</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div>
+                    <h2>How does all this work?</h2>
+                    <p>We built a model that was trained with a fastai resnet50 convolutional neural network using data from several internet sources, including the <a target="_blank" href="https://www.robots.ox.ac.uk/~vgg/data/pets/">Oxford Pet Dataset</a>, <a target="_blank" href="http://vision.stanford.edu/aditya86/ImageNetDogs">Stanford Dogs Dataset</a>, as well as Wikimedia Commons. This progressive web application was built using VueJS which posts the images back to the server, which evaluates the results and sends them back to the application.</p>
+                </div>
+                <div class="dedication">
+                    <h2>Dedication</h2>
+                    <p>This app was built for Jack the Cat (Egyptian Mau, Bengal, Abyssinian) and Fig the Dog (Black
+                        Mouth Cur, American Staffordshire Terrier, Rhodesian Ridgeback).</p>
+                    <img src="assets/images/figjack.jpg" />
+                    <img src="assets/images/jack.jpg" />
+                    <img src="assets/images/fig.jpg" />
+                </div>
+        </section>
+    </div>
+</body>
+<script src="assets/js/app.js"></script>
+</html>
