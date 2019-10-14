@@ -119,11 +119,17 @@ var app = new Vue({
 
         submit: function () 
         {
+            gtag('event', 'submit', 
+            {
+                'value': this.images.length
+            });              
+
             this.state = "pending"
             document.getElementById("button").blur();
 
             imageData = []
-            this.images.forEach(i => {
+            this.images.forEach(i => 
+            {
                 var canvas = document.getElementById(i.name);
                 var url = canvas.toDataURL('image/jpg');
                 imageData.push(url)
@@ -134,12 +140,18 @@ var app = new Vue({
                 {
                     this.results = []
                     response.data.forEach(d => 
-                        {
-                            d[2] = this.rankings.find(x => x.name == d[0]).link
-                            d[0] = ToTitleCase(d[0])
-                            this.results.push(d)
-                        });
+                    {
+                        d[2] = this.rankings.find(x => x.name == d[0]).link
+                        d[0] = ToTitleCase(d[0])
+                        this.results.push(d)
+                    });
 
+                    var results = results.map(r => `${r[0]}:${r[1]}`).join('-')
+                    gtag('event', 'result', 
+                    {
+                        'value': results
+                    });
+                       
                     Vue.nextTick(() => 
                     {
                         var top = document.getElementById("results").documentOffsetTop();
