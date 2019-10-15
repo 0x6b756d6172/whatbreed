@@ -14,7 +14,7 @@ learn = load_learner(".")
 
 app = Starlette()
 app.add_middleware(CORSMiddleware, allow_origins=['*'], allow_headers=['X-Requested-With', 'Content-Type'])
-app.mount('/assets', StaticFiles(directory='app/assets'))
+app.mount('/assets', StaticFiles(directory='assets'))
 
 def Predict(imageList, count):
     results = []

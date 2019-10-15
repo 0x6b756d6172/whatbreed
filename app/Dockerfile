@@ -6,7 +6,8 @@ RUN apt-get update && apt-get install -y git python3-dev gcc \
 COPY requirements.txt .
 RUN pip install --upgrade -r requirements.txt
 
-COPY . app/
+WORKDIR /srv
+COPY . .
 
 EXPOSE 5000
-CMD ["python", "app/server.py", "serve"]
+CMD ["python", "server.py", "serve"]
