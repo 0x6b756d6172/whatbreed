@@ -10,4 +10,4 @@ COPY . app/
 RUN python app/server.py
 
 EXPOSE 5000
-CMD ["python", "app/server.py", "serve"]
+CMD ["python", "server.py", "serve"]
