@@ -10,9 +10,7 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse, FileResponse
 from starlette.staticfiles import StaticFiles
 
-path = Path(__file__).parent
-export_file_name = 'model.pkl'
-learn = load_learner(path, export_file_name)
+learn = load_learner(".")
 
 app = Starlette()
 app.add_middleware(CORSMiddleware, allow_origins=['*'], allow_headers=['X-Requested-With', 'Content-Type'])
