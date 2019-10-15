@@ -146,7 +146,7 @@ var app = new Vue({
                         this.results.push(d)
                     });
 
-                    var results = results.map(r => `${r[0]}:${r[1]}`).join('-')
+                    var results = this.results.map(r => `${r[0]}:${r[1]}`).join('-')
                     gtag('event', 'result', 
                     {
                         'value': results
