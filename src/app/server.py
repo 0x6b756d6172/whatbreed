@@ -10,6 +10,7 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse, FileResponse
 from starlette.staticfiles import StaticFiles
 
+path = Path(".")
 learn = load_learner(".")
 
 app = Starlette()
